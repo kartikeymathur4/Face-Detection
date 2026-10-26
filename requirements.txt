@@ -1,0 +1,10 @@
+# Python 3.11+
+# Version ranges (not exact pins): the face APIs used (cv2.FaceDetectorYN /
+# cv2.FaceRecognizerSF) exist in OpenCV 4.9+ and were also found in the OpenCV 5.0
+# build used while developing. Freeze exact versions with `pip freeze` once your
+# environment works.
+opencv-python>=4.9.0
+numpy>=1.26
+streamlit>=1.40
+python-dotenv>=1.0
+pytest>=8.0
